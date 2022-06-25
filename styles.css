@@ -12,7 +12,6 @@ body{
     align-items: center;
     justify-content: center;
     background-color: bisque;
-   
 }
 
 .calculator {
@@ -22,14 +21,14 @@ body{
     display: grid;
     grid-template-columns: repeat(4,68px);
     box-shadow: inset 5px 5px 12px #fff, 
-                5px 5px 12px rgba(0, 0, 0, .16,);
+                5px 5px 12px pink(0, 0, 0, .16,);
 }
 
 input{
     height: 60px;
     width: 258px;
     grid-column: span 4;
-    background-color: bisque;
+    background-color: pink;
     box-shadow: -6px -6px 13px #fff, 
                 6px 6px 13px rgba(0, 0, 0, .16,);
     border: none;
